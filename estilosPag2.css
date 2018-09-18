@@ -1,0 +1,70 @@
+/* general level NIVEL*/
+
+body {
+	background-color: #1752B9;
+	font-family: arial;
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+nav li {
+	line-height: 3rem;
+	position: relative;
+}
+
+nav li ul {
+	position: absolute;
+}
+
+
+nav a {
+	color: #ddd ;
+	display: block;
+	padding: 0 2.5em;
+	text-decoration: none;
+	transition: .4%;
+}
+
+nav a:hover {
+	background: rgba(0,0,0,.5);
+
+}
+
+
+
+/* aqui pegalos otra ves si no */
+/* Primer NIVEL*/
+nav > ul {
+	background: #3B0315  ;
+	display: table;
+	width: 100%;
+}
+nav > ul > li{
+	float: left;
+}
+/* SEGUNDO NIVEL*/
+nav li li {
+	background: #222;
+	max-height: 0;
+	overflow: hidden;
+	transition:  all -1100s;
+	width: 200px;
+}
+
+nav li:hover > ul > li {
+	max-height: 1000px;
+	overflow: visible;
+}
+
+nav > ul > li > ul {
+	top: 100%;
+}
+
+/* tercer nivel NIVEL*/
+
+nav ul ul ul {
+	left: 100%;
+	top: 0;
+}

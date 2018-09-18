@@ -1,0 +1,171 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+body {
+	   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a006b+0,0a0c72+27,81a7c6+48,97c1bc+51,01006b+75 */
+    background: #0a006b;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #0a006b 0%, #0a0c72 27%, #81a7c6 48%, #97c1bc 51%, #01006b 75%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #0a006b 0%, #0a0c72 27%, #81a7c6 48%, #97c1bc 51%, #01006b 75%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #0a006b 0%, #0a0c72 27%, #81a7c6 48%, #97c1bc 51%, #01006b 75%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a006b', endColorstr='#01006b', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+
+	font-size: 20;
+	font-family: arial;
+	text-align: center;
+
+}
+button {
+	.btn-2j {
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	padding: 0;
+}
+}
+.btn-2j:hover {
+	box-shadow: 0 8px #ab3c3c;
+	top: -2px;
+}
+
+.btn-2j:active {
+	box-shadow: 0 0 #ab3c3c;
+	top: 6px;
+}
+
+
+
+
+
+
+
+
+
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: red;
+	background: none;
+	cursor: pointer;
+	padding: 50px 160px;
+	display: inline-block;
+	margin: 30px 60px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-2i {
+	border-radius: 50%;
+	width: 190px;
+	height: 190px;
+	padding: 0;
+}
+
+.btn-2i:hover {
+	box-shadow: 0 4px gold;
+	top: 2px;
+}
+
+.btn-2i:active {
+	box-shadow: 0 0 gold;
+	top: 6px;
+}
+
+/* Button 2j */
+.btn-2j {
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;
+	padding: 0;
+}
+
+.btn-2j:hover {
+	box-shadow: 0 8px gold;
+	top: -2px;
+}
+
+.btn-2j:active {
+	box-shadow: 0 0 gold;
+	top: 6px;
+}
+
+
+
+
+h2:hover {
+
+	background-color: brown;
+}
+
+p:hover {
+	background-color: gold;
+	color; white;
+
+
+
+}
+
+
+table:hover {
+	background-color:#3B0315;
+	font-size: 20;
+	font-family: sans-serif;
+	text-decoration: none;
+	border-color: gold;
+}
+
+
+
+ul {
+
+	text-decoration: none;
+}
+button:hover {
+  color: white;
+}
+
+input:focus {
+  background-color: teal;
+}
+
+button:focus {
+  border-radius: 10px;
+  background-color: gold;
+}
+button:active {
+  background-color: orange;
+  font-size: 30px;
+}
+h5:hover{
+	color: white;
+}
