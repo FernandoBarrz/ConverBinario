@@ -13,9 +13,9 @@
 
 
 body {
-	   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0a006b+0,0a0c72+27,81a7c6+48,97c1bc+51,01006b+75 */
+	   /*Fondo del BOdy color azul degradado.*/
     background: #0a006b;
-    /* Old browsers */
+    /* browsers antiguos */
     background: -moz-linear-gradient(-45deg, #0a006b 0%, #0a0c72 27%, #81a7c6 48%, #97c1bc 51%, #01006b 75%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #0a006b 0%, #0a0c72 27%, #81a7c6 48%, #97c1bc 51%, #01006b 75%);
@@ -30,6 +30,7 @@ body {
 	text-align: center;
 
 }
+/*Boton de inicio del algoritmo*/
 button {
 	.btn-2j {
 	border-radius: 50%;
